@@ -8,7 +8,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, l
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Birdy_1_duck.vy == 0) {
-        Birdy_1_duck.vy = -160
+        Birdy_1_duck.vy = -170
     }
 })
 let Birdy_1_duck: Sprite = null
@@ -35,6 +35,7 @@ Birdy_1_duck = sprites.create(img`
     . . . . c c d d d 5 5 5 b b . . 
     . . . . . . c c c c c b b . . . 
     `, SpriteKind.Player)
+splitScreen.cameraFollowSprite(splitScreen.Camera.Camera1, Birdy_1_duck)
 tiles.placeOnTile(Birdy_2_robin, tiles.getTileLocation(1, 6))
 Birdy_2_robin = sprites.create(img`
     . . . . . . . . . . b 2 b . . . 
@@ -54,10 +55,9 @@ Birdy_2_robin = sprites.create(img`
     . . . . c c d d d 2 2 2 b b . . 
     . . . . . . c c c c c b b . . . 
     `, SpriteKind.Player)
-Birdy_1_duck.ay = 350
-Birdy_2_robin.ay = 350
-controller.moveSprite(Birdy_1_duck)
-scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)))
-scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)))
-controller.player2.moveSprite(Birdy_2_robin)
+splitScreen.cameraFollowSprite(splitScreen.Camera.Camera2, Birdy_2_robin)
+Birdy_1_duck.ay = 200
+Birdy_2_robin.ay = 200
+controller.moveSprite(Birdy_1_duck, 100, 0)
+controller.player2.moveSprite(Birdy_2_robin, 100, 0)
 mp.setPlayerIndicatorsVisible(true)

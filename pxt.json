@@ -8,7 +8,8 @@
         "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
         "darts": "*",
         "corgio": "*",
-        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3"
     },
     "files": [
         "main.blocks",
