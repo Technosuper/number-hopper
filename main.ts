@@ -8,7 +8,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, l
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Birdy_1_duck.vy == 0) {
-    	
+        Birdy_1_duck.vy = -160
     }
 })
 let Birdy_1_duck: Sprite = null
@@ -16,6 +16,7 @@ scene.setBackgroundColor(9)
 tiles.setCurrentTilemap(tilemap`level4`)
 Birdy_1_duck = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One))
 let Birdy_2_robin = mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two))
+tiles.placeOnTile(Birdy_1_duck, tiles.getTileLocation(1, 6))
 Birdy_1_duck = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
@@ -34,7 +35,7 @@ Birdy_1_duck = sprites.create(img`
     . . . . c c d d d 5 5 5 b b . . 
     . . . . . . c c c c c b b . . . 
     `, SpriteKind.Player)
-tiles.placeOnTile(Birdy_1_duck, tiles.getTileLocation(1, 6))
+tiles.placeOnTile(Birdy_2_robin, tiles.getTileLocation(1, 6))
 Birdy_2_robin = sprites.create(img`
     . . . . . . . . . . b 2 b . . . 
     . . . . . . . . . b 2 b . . . . 
@@ -53,7 +54,10 @@ Birdy_2_robin = sprites.create(img`
     . . . . c c d d d 2 2 2 b b . . 
     . . . . . . c c c c c b b . . . 
     `, SpriteKind.Player)
-tiles.placeOnTile(Birdy_1_duck, tiles.getTileLocation(1, 6))
+Birdy_1_duck.ay = 350
+Birdy_2_robin.ay = 350
 controller.moveSprite(Birdy_1_duck)
+scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)))
+scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)))
 controller.player2.moveSprite(Birdy_2_robin)
 mp.setPlayerIndicatorsVisible(true)
