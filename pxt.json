@@ -9,7 +9,8 @@
         "darts": "*",
         "corgio": "*",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
-        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3"
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "sprite-scaling": "*"
     },
     "files": [
         "main.blocks",
