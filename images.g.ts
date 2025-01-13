@@ -92,25 +92,6 @@ b b c c c d d d 5 5 5 5 5 d b .
 . . . . c c d d d 5 5 5 b b . . 
 . . . . . . c c c c c b b . . . 
 `;
-            case "image2":
-            case "forestSnake0":return img`
-. . . . c c c c c c . . . . . . 
-. . . c 6 7 7 7 7 6 c . . . . . 
-. . c 7 7 7 7 7 7 7 7 c . . . . 
-. c 6 7 7 7 7 7 7 7 7 6 c . . . 
-. c 7 c 6 6 6 6 c 7 7 7 c . . . 
-. f 7 6 f 6 6 f 6 7 7 7 f . . . 
-. f 7 7 7 7 7 7 7 7 7 7 f . . . 
-. . f 7 7 7 7 6 c 7 7 6 f c . . 
-. . . f c c c c 7 7 6 f 7 7 c . 
-. . c 7 2 7 7 7 6 c f 7 7 7 7 c 
-. c 7 7 2 7 7 c f c 6 7 7 6 c c 
-c 1 1 1 1 7 6 f c c 6 6 6 c . . 
-f 1 1 1 1 1 6 6 c 6 6 6 6 f . . 
-f 6 1 1 1 1 1 6 6 6 6 6 c f . . 
-. f 6 1 1 1 1 1 1 6 6 6 f . . . 
-. . c c c c c c c c c f . . . . 
-`;
             case "image3":
             case "forestBat0":return img`
 . . f f f . . . . . . . . f f f 
@@ -300,6 +281,25 @@ c 5 4 5 1 5 c .
 c 5 5 1 5 5 c . 
 . f 5 5 5 f . . 
 . . f f f . . . 
+`;
+            case "image2":
+            case "forestSnake0":return img`
+. . . . c c c c c c . . . . . . 
+. . . c 6 7 7 7 7 6 c . . . . . 
+. . c 7 7 7 7 7 7 7 7 c . . . . 
+. c 6 7 7 7 7 7 7 7 7 6 c . . . 
+. c 7 c 6 6 6 6 c 7 7 7 c . . . 
+. f 7 6 f 6 6 f 6 7 7 7 f . . . 
+. f 7 7 7 7 7 7 7 7 7 7 f . . . 
+. . f 7 7 7 7 6 c 7 7 6 f c . . 
+. . . f c c c c 7 7 6 f 7 7 c . 
+. . c 7 2 7 7 7 6 c f 7 7 7 7 c 
+. c 7 7 2 7 7 c f c 6 7 7 6 c c 
+c 1 1 1 1 7 6 f c c 6 6 6 c . . 
+f 1 1 1 1 1 6 6 c 6 6 6 6 f . . 
+f 6 1 1 1 1 1 6 6 6 6 6 c f . . 
+. f 6 1 1 1 1 1 1 6 6 6 f . . . 
+. . c c c c c c c c c f . . . . 
 `;
         }
         return null;

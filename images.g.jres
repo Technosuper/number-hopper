@@ -14,11 +14,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Ducky"
     },
-    "image2": {
-        "data": "hwQQABAAAAAAAAAAAMD/AADA/A8AHGEPAGx398AXEcbAd2x3fxcRwWx39ncsEhHBfHdmd3x3EcF8d2Z3fGcWwXx39md8/GbBfHdsx2fPbMFsd3d3x8xmxsB3d3f2ZmbGAGx3Z39nZvYAwPz/d2fGDwAAAMB3xv8AAAAAAHwMAAAAAAAAwAwAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "forestSnake0"
-    },
     "image3": {
         "data": "hwQQABAAAAAA//8PwPwPAPDP/8+8u/sA//zPu7Ecuw/PzDyzu/u7+88AzLu7+7v7AADAvLv7u/sAADyzsRy7+wAAzLu7u7v7AADAzLu7u/sAAP+/vLu7/AD/vLvMu8sP8LzLzMz//wDAy7vMDMAMAL/LvMsAAAwAv8zMDAAAAADPAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -68,6 +63,11 @@
         "data": "hwQIAAgAAAAAu8wAsFVVD1tNVPVbVBX1Wx1R9bBVVQ8Au8wAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "coin1"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAMD/AADA/A8AHGEPAGx398AXEcbAd2x3fxcRwWx39ncsEhHBfHdmd3x3EcF8d2Z3fGcWwXx39md8/GbBfHdsx2fPbMFsd3d3x8xmxsB3d3f2ZmbGAGx3Z39nZvYAwPz/d2fGDwAAAMB3xv8AAAAAAHwMAAAAAAAAwAwAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "forestSnake0"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

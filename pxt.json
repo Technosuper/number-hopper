@@ -10,7 +10,9 @@
         "corgio": "*",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
         "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
-        "sprite-scaling": "*"
+        "sprite-scaling": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "Number Hopper🎮": "pkg:Number Hopper🎮.json"
     },
     "files": [
         "main.blocks",
@@ -20,7 +22,8 @@
         "tilemap.g.jres",
         "tilemap.g.ts",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "Number Hopper🎮.json"
     ],
     "testFiles": [
         "test.ts"
